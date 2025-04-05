@@ -14,6 +14,8 @@ sh download.sh
 
 ### UNIX
 
+[`unix/`](./unix/)
+
 - This is all review, nevertheless, doesn't hurt to go over again
 - `>` refers to using stdout to put to another file
 - `>>` will append not overwrite
@@ -25,3 +27,19 @@ sh download.sh
 - `?` for single character wildcard, `*` for match all
 - [awk](./unix/awk.sh)
 
+### FSL
+
+[`fsl/`](./fsl/)
+
+- Flanker Task
+ 	- Subject sees the below, then says for each one whether pointing right or left.
+	- `>>>>>>>>>>>>>>>`
+	- `>>>>>>><>>>>>>>`
+	- Note that some are congruent with all arrows (same direction)
+	- Others are not congruent, like the second example (middle is different than surrounding)
+	- You'd think that incongruent response times would be more
+- Fixation in middle, then shown for 2s the stimuli, subject presses the left or right button. Then rest interval between (between 8 and 14 seconds).
+- Goal test the BOLD difference between congruent and incongruent
+- Open up a .nii.gz with `fsleyes filename.nii.gz`
+- BET, choose a value 0 to 1. Lower means will attempt to label more as brain, higher means more as skull. Once you click finish will generate `_brain` version of the same file. can load both in FSLEyes and overlay the stripped version in blue. Make sure that we don't label too little as brain. Aim for perfect, but slightly more is better than less.  
+- 

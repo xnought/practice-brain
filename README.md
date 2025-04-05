@@ -7,7 +7,8 @@ My own practice with brain analysis softwares. I'll either do my own thing or fo
 - [ ] Andy's Brain Book [`andy/`](./andy)
 	- [x] UNIX (already know, but I'll review)
 	- [ ] FSL 
-- [ ] FSL Course
+	- [ ] SPM
+- [ ] FSL Official Course
 	- [ ] ... add some  
 
 ## References
