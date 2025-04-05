@@ -22,4 +22,6 @@ sh download.sh
 - [for](./unix/for.sh)
 - [if](./unix/if.sh) https://www.gnu.org/software/bash/manual/html_node/Bash-Conditional-Expressions.html
 - `du -sh *` gives disk usage for all files
+- `?` for single character wildcard, `*` for match all
+- [awk](./unix/awk.sh)
 
