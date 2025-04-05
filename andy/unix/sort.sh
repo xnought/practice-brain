@@ -1,0 +1,1 @@
+cat myFile.txt | sort -n
