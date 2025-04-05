@@ -42,3 +42,5 @@ sh download.sh
 - Goal test the BOLD difference between congruent and incongruent
 - Open up a .nii.gz with `fsleyes filename.nii.gz`
 - (sub-08) BET, choose a value 0 to 1. Lower means will attempt to label more as brain, higher means more as skull. Once you click finish will generate `_brain` version of the same file. can load both in FSLEyes and overlay the stripped version in blue. Make sure that we don't label too little as brain. Aim for perfect, but slightly more is better than less. ![comparing_bet](./fsl/images/comparing_bet.png). In the figure, red is 0.9, green is 0.1, and blue (best) is 0.1 for this particular subject.
+- Next steps (motion correction and more) with FEAT. First click preprocessing, then select the functional data and which data to output. If the subject moves, we want to correct this so that voxels stay in the same spot. Apparently smoothing helps with removing noise. Then we can register the functional with an affine transform to the structural, then affine again to the standard space MNI152. After press go, brings up web page.
+- 
