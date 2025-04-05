@@ -4,8 +4,8 @@ My own practice with brain analysis softwares. I'll either do my own thing or fo
 
 **Roadmap**
 
-- [ ] Andy's Brain Book
-	- [ ] UNIX (already know, but I'll review)
+- [ ] Andy's Brain Book [`andy/`](./andy)
+	- [x] UNIX (already know, but I'll review)
 	- [ ] FSL 
 - [ ] FSL Course
 	- [ ] ... add some  
