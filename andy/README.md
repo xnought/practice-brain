@@ -52,4 +52,4 @@ sh download.sh
 - To know when stimuli are shown, we can use the timing file. Needs to have onset (relative starting point since scan started), duration (how long stimulus), and parametric modulation (1 since we didn't do this for our dataset).
 - Then open FEAT and do statistics instead of preprocessing. Select the run with FEAT, then go ahead and do full model setup. Here you can add explanatory variables (EVs) which are just the betas. Then in F tests we can do the contrasts to contrast the explanatory variables. For our data have 3 column format and in this case to simplify we remove temporal derivative.   
 - To automate this for all subjects, use the .fsf file which contains the whole config and run that. Will need to do some replacements though. And the video recommends redoing the whole run with full analysis then saving the output and using those .fsf files.
-- 
+- The betas are in the stats file with `pe` and contrast with `cope`
